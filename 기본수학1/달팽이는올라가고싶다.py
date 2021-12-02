@@ -1,0 +1,5 @@
+x, y, z = input().split(' ')
+a = int(x)
+b = int(y)
+v = int(z)
+print(int((v-b-1)/(a-b)+1))
