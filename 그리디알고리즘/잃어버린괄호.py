@@ -6,7 +6,6 @@ res_arr = []
 exp_arith = input_txt[:-1]
 exp = exp_arith.split('-')
 
-
 for i in exp:
     tmp_res = 0
     tmp_arr = i.split('+')
