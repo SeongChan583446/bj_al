@@ -8,4 +8,5 @@ def fact(n):
     return res
 
 n,k = map(int,input().split(' '))
-print(fact(n)//(fact(k)*fact(n-k)))
+res = fact(n)//(fact(k)*fact(n-k))
+print(res % 10007)
