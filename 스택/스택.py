@@ -11,8 +11,7 @@ for i in range(n):
         if len(arr) == 0:
             print(-1)
         else:
-            print(arr[-1])
-            arr.remove(arr[-1])
+            print(arr.pop())
     elif command[0] == "top":
         if len(arr) == 0:
             print(-1)
