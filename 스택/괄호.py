@@ -11,10 +11,10 @@ for i in range(t):
         elif j == ')':
             sum -= 1
         if sum < 0:
-            print("N0")
+            print("NO")
             break
     
     if sum == 0:
         print("YES")
-    else:
+    elif sum > 0:
         print("NO")
