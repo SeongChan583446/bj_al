@@ -9,7 +9,7 @@ for i in range(t):
     count_reverse = 0
     func = input().rstrip()
     n = int(input())
-    arr = deque(list(map(int,input().rstrip()[1:-1].split(","))))
+    arr = deque(list(input().rstrip()[1:-1].split(",")))
 
     if n == 0:
         arr = []
