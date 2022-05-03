@@ -26,12 +26,10 @@ def mul(a,b):
 n = int(input())
 
 n = bin(n)[2:]
-print('n',n)
 result = [[1,0],[0,1]]
 
 for i in range(len(n)):
     if n[-i-1] == '1':
         result = mul(result,power(i))
-        print(result,i)
 
 print(result[0][1] % 1000000007)
